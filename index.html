@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Daria: catálogo de belleza, cuidado personal, accesorios, papelería, hogar, juguetería, kits y combos.">
+  <meta name="theme-color" content="#f8dbe5">
+  <meta property="og:title" content="Daria | Catálogo">
+  <meta property="og:description" content="Encuentra productos lindos para ti y arma tu pedido para enviarlo por WhatsApp.">
+  <title>Daria | Catálogo</title>
+  <link rel="icon" href="IMAGENES/logo/logo.png" type="image/png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/app.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#productos">Saltar al catálogo</a>
+
+  <header class="hero" id="inicio">
+    <nav class="navbar" aria-label="Navegación principal">
+      <a class="brand-link" href="#inicio" aria-label="Ir al inicio">
+        <img src="IMAGENES/logo/logo.png" alt="Logo de Daria" class="navbar-logo">
+      </a>
+      <div class="navbar-actions">
+        <a href="#categorias" class="navbar-link">Categorías</a>
+        <a href="#informacion" class="navbar-link">Cómo comprar</a>
+        <button class="cart-nav-button" id="open-cart-button" type="button" aria-label="Abrir carrito">
+          <span aria-hidden="true">🛍️</span>
+          <span>Carrito</span>
+          <span class="cart-count" id="cart-count">0</span>
+        </button>
+      </div>
+    </nav>
+
+    <div class="hero-content">
+      <p class="hero-eyebrow">Detalles lindos para cada día</p>
+      <img src="IMAGENES/logo/logo.png" alt="Daria" class="hero-logo">
+      <h1>Encuentra algo especial para ti</h1>
+      <p class="hero-copy">Belleza, cuidado personal, accesorios, papelería, hogar y regalos seleccionados con cariño.</p>
+      <div class="hero-actions">
+        <a href="#categorias" class="btn btn-primary">Explorar catálogo</a>
+        <a href="#informacion" class="btn btn-secondary">Cómo comprar</a>
+      </div>
+      <span class="scroll-text">Desliza para descubrir ↓</span>
+    </div>
+  </header>
+
+  <main>
+    <section id="categorias" class="categories-section section-shell">
+      <div class="section-heading">
+        <p class="section-label">Explora por categoría</p>
+        <h2>Encuentra justo lo que necesitas</h2>
+        <p class="section-description">Elige una categoría para ver todos sus productos.</p>
+      </div>
+
+      <div class="categories-grid">
+        <article class="category-card">
+          <img class="category-image" src="categorias/belleza.jpg" alt="Categoría Belleza" loading="lazy">
+          <div class="category-content"><div class="category-icon">♡</div><h3>Belleza</h3><p>Todo para resaltar tu belleza.</p><span class="category-count" data-count-category="Belleza">0 productos</span><a href="#productos" class="category-link" data-category="Belleza">Explorar <span>→</span></a></div>
+        </article>
+        <article class="category-card">
+          <img class="category-image" src="categorias/cuidado_personal.png" alt="Categoría Cuidado Personal" loading="lazy">
+          <div class="category-content"><div class="category-icon">✦</div><h3>Cuidado Personal</h3><p>Pequeños momentos para consentirte.</p><span class="category-count" data-count-category="Cuidado Personal">0 productos</span><a href="#productos" class="category-link" data-category="Cuidado Personal">Explorar <span>→</span></a></div>
+        </article>
+        <article class="category-card">
+          <img class="category-image" src="categorias/accesorios_belleza.png" alt="Categoría Accesorios de Belleza" loading="lazy">
+          <div class="category-content"><div class="category-icon">♡</div><h3>Accesorios de Belleza</h3><p>Los detalles hacen la diferencia.</p><span class="category-count" data-count-category="Accesorios de Belleza">0 productos</span><a href="#productos" class="category-link" data-category="Accesorios de Belleza">Explorar <span>→</span></a></div>
+        </article>
+        <article class="category-card">
+          <img class="category-image" src="categorias/papeleria.png" alt="Categoría Papelería" loading="lazy">
+          <div class="category-content"><div class="category-icon">✎</div><h3>Papelería</h3><p>Organiza tus ideas con estilo.</p><span class="category-count" data-count-category="Papelería">0 productos</span><a href="#productos" class="category-link" data-category="Papelería">Explorar <span>→</span></a></div>
+        </article>
+        <article class="category-card">
+          <img class="category-image" src="categorias/hogar.png" alt="Categoría Hogar" loading="lazy">
+          <div class="category-content"><div class="category-icon">⌂</div><h3>Hogar</h3><p>Detalles bonitos para cada día.</p><span class="category-count" data-count-category="Hogar">0 productos</span><a href="#productos" class="category-link" data-category="Hogar">Explorar <span>→</span></a></div>
+        </article>
+        <article class="category-card">
+          <img class="category-image" src="categorias/jugueteria.png" alt="Categoría Juguetería" loading="lazy">
+          <div class="category-content"><div class="category-icon">☆</div><h3>Juguetería</h3><p>Regalos tiernos y divertidos.</p><span class="category-count" data-count-category="Juguetería">0 productos</span><a href="#productos" class="category-link" data-category="Juguetería">Explorar <span>→</span></a></div>
+        </article>
+        <article class="category-card category-card-wide">
+          <img class="category-image" src="categorias/kits_combos.png" alt="Categoría Kits y Combos" loading="lazy">
+          <div class="category-content"><div class="category-icon">◇</div><h3>Kits &amp; Combos</h3><p>Regalos listos para sorprender.</p><span class="category-count" data-count-category="Kits & Combos">0 productos</span><a href="#productos" class="category-link" data-category="Kits & Combos">Explorar <span>→</span></a></div>
+        </article>
+      </div>
+    </section>
+
+    <section id="productos" class="products-section section-shell">
+      <div class="section-heading products-heading">
+        <p class="section-label">Elegidos para ti</p>
+        <h2 id="products-title">Nuestros productos</h2>
+        <p class="section-description">Busca, filtra y agrega al carrito todo lo que te guste.</p>
+      </div>
+
+      <div class="catalog-toolbar">
+        <div class="search-row">
+          <label class="search-box" for="search-input">
+            <span aria-hidden="true">⌕</span>
+            <input type="search" id="search-input" placeholder="Buscar labial, mascarilla, taza..." autocomplete="off">
+          </label>
+          <button class="clear-search" id="clear-search" type="button" aria-label="Limpiar búsqueda">Limpiar</button>
+        </div>
+        <div class="filter-buttons" id="filter-buttons" aria-label="Filtros de categoría">
+          <button type="button" class="filter-button active" data-filter="Todos">Todos</button>
+          <button type="button" class="filter-button" data-filter="Belleza">Belleza</button>
+          <button type="button" class="filter-button" data-filter="Cuidado Personal">Cuidado personal</button>
+          <button type="button" class="filter-button" data-filter="Accesorios de Belleza">Accesorios</button>
+          <button type="button" class="filter-button" data-filter="Papelería">Papelería</button>
+          <button type="button" class="filter-button" data-filter="Hogar">Hogar</button>
+          <button type="button" class="filter-button" data-filter="Juguetería">Juguetería</button>
+          <button type="button" class="filter-button" data-filter="Kits & Combos">Kits y combos</button>
+        </div>
+      </div>
+
+      <p class="results-message" id="results-message" aria-live="polite"></p>
+      <div class="products-grid" id="products-grid"><p class="loading-message">Cargando productos...</p></div>
+
+      <div class="custom-mug-banner">
+        <div class="custom-mug-icon" aria-hidden="true">☕</div>
+        <div class="custom-mug-content">
+          <span class="mini-label">Diseños únicos</span>
+          <h3>¿Buscas una taza personalizada?</h3>
+          <p>Personalizamos con fotografías, nombres, frases, personajes, mascotas, logos o la idea que tengas.</p>
+          <strong>Precio aproximado de Q25 a Q30, según el diseño.</strong>
+          <a class="whatsapp-link button-link" data-message="Hola, quisiera cotizar una taza personalizada. Mi idea es: ">Cotizar mi diseño</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="info-section section-shell" id="informacion">
+      <div class="section-heading">
+        <p class="section-label">Antes de pedir</p>
+        <h2>Información importante</h2>
+      </div>
+      <div class="info-grid">
+        <article class="info-card"><div class="info-icon">🗓️</div><h3>Tiempos de entrega</h3><p>Todos los pedidos se preparan los días sábado, para entregarse durante la semana siguiente.</p></article>
+        <article class="info-card"><div class="info-icon">💳</div><h3>Métodos de pago</h3><ul><li>Efectivo</li><li>Transferencia</li><li>Depósito</li></ul></article>
+        <article class="info-card"><div class="info-icon">🎀</div><h3>Disponibilidad</h3><p>Las existencias varían. Si un color o modelo no está disponible, pregúntanos: seguro tenemos otra opción para ti.</p></article>
+      </div>
+    </section>
+
+    <section class="thanks-section section-shell">
+      <div class="thanks-content"><span class="thanks-heart">♡</span><p class="thanks-label">Gracias por tu apoyo</p><h2>Tu compra apoya un sueño</h2><p>Cada pedido nos ayuda a seguir creciendo y trayendo cosas bonitas para ti.</p></div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <img src="IMAGENES/logo/logo.png" alt="Daria" class="footer-logo">
+    <p>© <span id="current-year"></span> Daria · Catálogo con cariño.</p>
+  </footer>
+
+  <button class="back-to-top" id="back-to-top" type="button" aria-label="Volver arriba">↑</button>
+  <button class="floating-cart" id="floating-cart-button" type="button" aria-label="Abrir carrito">🛍️ <span id="floating-cart-count">0</span></button>
+  <a class="floating-whatsapp whatsapp-link" data-message="Hola, vi el catálogo de Daria y quisiera información." aria-label="Escribir por WhatsApp">💬</a>
+
+  <div class="product-modal" id="product-modal" aria-hidden="true">
+    <div class="modal-overlay" data-close-modal></div>
+    <div class="modal-content" role="dialog" aria-modal="true" aria-labelledby="modal-product-name">
+      <button class="modal-close" type="button" data-close-modal aria-label="Cerrar">×</button>
+      <div class="modal-image-container">
+        <img id="modal-product-image" class="modal-image" alt="">
+        <span id="modal-product-badge" class="modal-badge"></span>
+      </div>
+      <div class="modal-information">
+        <span id="modal-product-category" class="modal-category"></span>
+        <h2 id="modal-product-name"></h2>
+        <p id="modal-product-description" class="modal-description"></p>
+        <p class="availability-note">Algunos productos están disponibles en varios colores o modelos. Puedes escribir tu preferencia antes de agregarlo.</p>
+        <span id="modal-product-price" class="modal-price"></span>
+        <label class="preference-field">Color, modelo o detalle (opcional)<input type="text" id="modal-preference" maxlength="100" placeholder="Ej.: rosado, aroma de vainilla..." autocomplete="off"></label>
+        <div class="modal-actions">
+          <button class="primary-button" id="modal-add-cart" type="button">Agregar al carrito</button>
+          <a class="secondary-button" id="modal-whatsapp-button" target="_blank" rel="noopener">Consultar por WhatsApp</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <aside class="cart-drawer" id="cart-drawer" aria-hidden="true">
+    <div class="cart-overlay" data-close-cart></div>
+    <div class="cart-panel" role="dialog" aria-modal="true" aria-labelledby="cart-title">
+      <div class="cart-header"><div><p class="section-label">Tu selección</p><h2 id="cart-title">Carrito</h2></div><button class="cart-close" type="button" data-close-cart aria-label="Cerrar carrito">×</button></div>
+      <div class="cart-items" id="cart-items"></div>
+      <div class="cart-summary">
+        <div class="cart-total-row"><span>Total de productos</span><strong id="cart-total">Q0.00</strong></div>
+        <p class="cart-note">El total corresponde a los productos agregados. Si tu pedido incluye envío, personalización o un encargo especial, el monto final se confirmará por WhatsApp.</p>
+        <label class="order-notes">¿Deseas agregar alguna indicación?<textarea id="order-notes" rows="3" maxlength="300" placeholder="Ej.: prefiero color rosado o entregar el sábado"></textarea></label>
+        <button class="whatsapp-order-button primary-button" id="send-whatsapp-order" type="button">Enviar pedido por WhatsApp</button>
+        <button class="clear-cart-button" id="clear-cart-button" type="button">Vaciar carrito</button>
+      </div>
+    </div>
+  </aside>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  <noscript><div class="noscript-message">Activa JavaScript para ver el catálogo y usar el carrito.</div></noscript>
+</body>
+</html>
