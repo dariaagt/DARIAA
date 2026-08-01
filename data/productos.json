@@ -1580,5 +1580,33 @@
     "masVendido": false,
     "stock": 1,
     "disponible": true
+  },
+  {
+    "id": 114,
+    "nombre": "Peine para cejas y pestañas",
+    "categoria": "Accesorios de Belleza",
+    "descripcion": "Define, separa y da un acabado impecable a tus cejas y pestañas. Ideal para peinar, retirar el exceso de producto y lograr un look más natural. Lleváte 3 por Q5",
+    "precio": 5,
+    "imagen": "IMAGENES/PRODUCTOS/accesorios/peine_cejas_pestañas.png",
+    "etiqueta": "",
+    "destacado": false,
+    "nuevo": false,
+    "masVendido": false,
+    "stock": 1,
+    "disponible": true 
+  },
+  {
+    "id": 115,
+    "nombre": "Parches para acné",
+    "categoria": "Cuidado Personal",
+    "descripcion": "Protegen los granitos y ayudan a reducir su apariencia para una piel con un aspecto más limpio y cuidado. Llevate 2 láminas por Q5",
+    "precio": 5,
+    "imagen": "IMAGENES/PRODUCTOS/cuidado_personal/parches_espinillas.png",
+    "etiqueta": "",
+    "destacado": false,
+    "nuevo": false,
+    "masVendido": false,
+    "stock": 1,
+    "disponible": true 
   }
 ]
