@@ -221,7 +221,7 @@
     "nuevo": false,
     "masVendido": false,
     "stock": 1,
-    "disponible": true
+    "disponible": false
   },
   {
     "id": 17,
@@ -277,7 +277,7 @@
     "nuevo": true,
     "masVendido": false,
     "stock": 1,
-    "disponible": true
+    "disponible": false
   },
   {
     "id": 21,
@@ -319,7 +319,7 @@
     "nuevo": false,
     "masVendido": true,
     "stock": 1,
-    "disponible": true
+    "disponible": false
   },
   {
     "id": 24,
@@ -375,7 +375,7 @@
     "nuevo": false,
     "masVendido": false,
     "stock": 1,
-    "disponible": true
+    "disponible": false
   },
   {
     "id": 28,
@@ -487,7 +487,7 @@
     "nuevo": false,
     "masVendido": false,
     "stock": 1,
-    "disponible": true
+    "disponible": false
   },
   {
     "id": 36,
@@ -949,7 +949,7 @@
     "nuevo": false,
     "masVendido": false,
     "stock": 1,
-    "disponible": true
+    "disponible": false
   },
   {
     "id": 69,
@@ -963,7 +963,7 @@
     "nuevo": false,
     "masVendido": false,
     "stock": 1,
-    "disponible": true
+    "disponible": false
   },
   {
     "id": 70,
@@ -1243,7 +1243,7 @@
     "nuevo": false,
     "masVendido": false,
     "stock": 1,
-    "disponible": true
+    "disponible": false
   },
   {
     "id": 90,
@@ -1602,6 +1602,62 @@
     "descripcion": "Protegen los granitos y ayudan a reducir su apariencia para una piel con un aspecto más limpio y cuidado. Llevate 2 láminas por Q5",
     "precio": 5,
     "imagen": "IMAGENES/PRODUCTOS/cuidado_personal/parches_espinillas.png",
+    "etiqueta": "",
+    "destacado": false,
+    "nuevo": false,
+    "masVendido": false,
+    "stock": 1,
+    "disponible": true 
+  },
+  {
+    "id": 116,
+    "nombre": "Gel para pestañas",
+    "categoria": "Belleza",
+    "descripcion": "Fija y define sin dejar residuos. Ideal para un acabado natural y de larga duración.",
+    "precio": 15,
+    "imagen": "IMAGENES/PRODUCTOS/belleza/gel_pestanas.png",
+    "etiqueta": "",
+    "destacado": false,
+    "nuevo": false,
+    "masVendido": false,
+    "stock": 1,
+    "disponible": true 
+  },
+  {
+    "id": 117,
+    "nombre": "Gel pestañas",
+    "categoria": "Belleza",
+    "descripcion": "Peina, controla y da una apariencia más definida a tus pestañas y cejas sin dejar residuos. Perfecto para uso diario y un acabado natural.",
+    "precio": 15,
+    "imagen": "IMAGENES/PRODUCTOS/belleza/pestanas_gel.png",
+    "etiqueta": "",
+    "destacado": false,
+    "nuevo": false,
+    "masVendido": false,
+    "stock": 1,
+    "disponible": true 
+  },
+  {
+    "id": 118,
+    "nombre": "Lámpara LED de Conejito",
+    "categoria": "Hogar",
+    "descripcion": "Luz suave con 5 colores de iluminación, perfecta para crear un ambiente cálido y acogedor. Ideal para decorar habitaciones, escritorios o como un lindo regalo.",
+    "precio": 15,
+    "imagen": "IMAGENES/PRODUCTOS/hogar/lampara_conejo.png",
+    "etiqueta": "",
+    "destacado": false,
+    "nuevo": false,
+    "masVendido": false,
+    "stock": 1,
+    "disponible": true 
+  },
+  {
+    "id": 119,
+    "nombre": "Gloss con Pompón",
+    "categoria": "Belleza",
+    "descripcion": "Aporta un acabado brillante con una presentación adorable. Su diseño con pompón lo hace perfecto para llevar siempre contigo.",
+    "precio": 12,
+    "imagen": "IMAGENES/PRODUCTOS/belleza/labial_pompom.png",
     "etiqueta": "",
     "destacado": false,
     "nuevo": false,
