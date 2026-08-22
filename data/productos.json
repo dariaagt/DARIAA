@@ -515,7 +515,7 @@
     "nuevo": true,
     "masVendido": false,
     "stock": 1,
-    "disponible": true
+    "disponible": false
   },
   {
     "id": 38,
