@@ -109,7 +109,7 @@
     "nuevo": false,
     "masVendido": false,
     "stock": 1,
-    "disponible": true
+    "disponible": false
   },
   {
     "id": 9,
@@ -123,11 +123,11 @@
     "nuevo": false,
     "masVendido": false,
     "stock": 1,
-    "disponible": true
+    "disponible": false
   },
   {
     "id": 10,
-    "nombre": "Cepillo de Madera Premium",
+    "nombre": "Cepillo de Madera",
     "categoria": "Accesorios de Belleza",
     "descripcion": "Cepillo de madera con diseño elegante, ideal para desenredar el cabello y mantenerlo ordenado durante el día.",
     "precio": 25,
@@ -151,7 +151,7 @@
     "nuevo": false,
     "masVendido": false,
     "stock": 1,
-    "disponible": true
+    "disponible": false
   },
   {
     "id": 12,
@@ -235,7 +235,7 @@
     "nuevo": true,
     "masVendido": false,
     "stock": 1,
-    "disponible": true
+    "disponible": false
   },
   {
     "id": 18,
@@ -249,7 +249,7 @@
     "nuevo": false,
     "masVendido": false,
     "stock": 1,
-    "disponible": true
+    "disponible": false
   },
   {
     "id": 19,
@@ -263,7 +263,7 @@
     "nuevo": true,
     "masVendido": false,
     "stock": 1,
-    "disponible": true
+    "disponible": false
   },
   {
     "id": 20,
@@ -389,7 +389,7 @@
     "nuevo": false,
     "masVendido": true,
     "stock": 1,
-    "disponible": true
+    "disponible": false
   },
   {
     "id": 29,
@@ -403,7 +403,7 @@
     "nuevo": true,
     "masVendido": false,
     "stock": 1,
-    "disponible": true
+    "disponible": false
   },
   {
     "id": 30,
@@ -459,7 +459,7 @@
     "nuevo": false,
     "masVendido": false,
     "stock": 1,
-    "disponible": true
+    "disponible": false
   },
   {
     "id": 34,
@@ -487,7 +487,7 @@
     "nuevo": false,
     "masVendido": false,
     "stock": 1,
-    "disponible": false
+    "disponible": true
   },
   {
     "id": 36,
@@ -501,7 +501,7 @@
     "nuevo": false,
     "masVendido": true,
     "stock": 1,
-    "disponible": true
+    "disponible": false
   },
   {
     "id": 37,
@@ -627,7 +627,7 @@
     "nuevo": false,
     "masVendido": false,
     "stock": 1,
-    "disponible": true
+    "disponible": false
   },
   {
     "id": 46,
@@ -711,7 +711,7 @@
     "nuevo": false,
     "masVendido": false,
     "stock": 1,
-    "disponible": true
+    "disponible": false
   },
   {
     "id": 52,
@@ -725,7 +725,7 @@
     "nuevo": false,
     "masVendido": false,
     "stock": 1,
-    "disponible": true
+    "disponible": false
   },
   {
     "id": 53,
@@ -739,7 +739,7 @@
     "nuevo": false,
     "masVendido": false,
     "stock": 1,
-    "disponible": true
+    "disponible": false
   },
   {
     "id": 54,
@@ -753,7 +753,7 @@
     "nuevo": false,
     "masVendido": false,
     "stock": 1,
-    "disponible": true
+    "disponible": false
   },
   {
     "id": 55,
@@ -767,7 +767,7 @@
     "nuevo": false,
     "masVendido": false,
     "stock": 1,
-    "disponible": true
+    "disponible": false
   },
   {
     "id": 56,
@@ -781,7 +781,7 @@
     "nuevo": false,
     "masVendido": false,
     "stock": 1,
-    "disponible": true
+    "disponible": false
   },
   {
     "id": 57,
@@ -837,7 +837,7 @@
     "nuevo": false,
     "masVendido": false,
     "stock": 1,
-    "disponible": true
+    "disponible": false
   },
   {
     "id": 61,
@@ -851,7 +851,7 @@
     "nuevo": false,
     "masVendido": false,
     "stock": 1,
-    "disponible": true
+    "disponible": false
   },
   {
     "id": 62,
@@ -865,7 +865,7 @@
     "nuevo": false,
     "masVendido": false,
     "stock": 1,
-    "disponible": true
+    "disponible": false
   },
   {
     "id": 63,
@@ -879,7 +879,7 @@
     "nuevo": false,
     "masVendido": false,
     "stock": 1,
-    "disponible": true
+    "disponible": false
   },
   {
     "id": 64,
@@ -893,7 +893,7 @@
     "nuevo": false,
     "masVendido": false,
     "stock": 1,
-    "disponible": true
+    "disponible": false
   },
   {
     "id": 65,
@@ -907,7 +907,7 @@
     "nuevo": false,
     "masVendido": false,
     "stock": 1,
-    "disponible": true
+    "disponible": false
   },
   {
     "id": 66,
@@ -1033,7 +1033,7 @@
     "nuevo": false,
     "masVendido": false,
     "stock": 1,
-    "disponible": true
+    "disponible": false
   },
   {
     "id": 75,
@@ -1089,7 +1089,7 @@
     "nuevo": false,
     "masVendido": false,
     "stock": 1,
-    "disponible": true
+    "disponible": false
   },
   {
     "id": 79,
@@ -1145,7 +1145,7 @@
     "nuevo": false,
     "masVendido": false,
     "stock": 1,
-    "disponible": true
+    "disponible": false
   },
   {
     "id": 83,
@@ -1159,7 +1159,7 @@
     "nuevo": false,
     "masVendido": false,
     "stock": 1,
-    "disponible": true
+    "disponible": false
   },
   {
     "id": 84,
@@ -1187,7 +1187,7 @@
     "nuevo": false,
     "masVendido": false,
     "stock": 1,
-    "disponible": true
+    "disponible": false
   },
   {
     "id": 86,
@@ -1229,7 +1229,7 @@
     "nuevo": false,
     "masVendido": false,
     "stock": 1,
-    "disponible": true
+    "disponible": false
   },
   {
     "id": 89,
@@ -1243,7 +1243,7 @@
     "nuevo": false,
     "masVendido": false,
     "stock": 1,
-    "disponible": false
+    "disponible": true
   },
   {
     "id": 90,
@@ -1257,7 +1257,7 @@
     "nuevo": false,
     "masVendido": false,
     "stock": 1,
-    "disponible": true
+    "disponible": false
   },
   {
     "id": 91,
@@ -1271,7 +1271,7 @@
     "nuevo": false,
     "masVendido": false,
     "stock": 1,
-    "disponible": true
+    "disponible": false
   },
   {
     "id": 92,
@@ -1299,7 +1299,7 @@
     "nuevo": false,
     "masVendido": false,
     "stock": 1,
-    "disponible": true
+    "disponible": false
   },
   {
     "id": 94,
@@ -1369,7 +1369,7 @@
     "nuevo": false,
     "masVendido": false,
     "stock": 1,
-    "disponible": true
+    "disponible": false
   },
   {
     "id": 99,
@@ -1397,7 +1397,7 @@
     "nuevo": false,
     "masVendido": false,
     "stock": 1,
-    "disponible": true
+    "disponible": false
   },
   {
     "id": 101,
@@ -1411,7 +1411,7 @@
     "nuevo": false,
     "masVendido": false,
     "stock": 1,
-    "disponible": true
+    "disponible": false
   },
   {
     "id": 102,
@@ -1425,7 +1425,7 @@
     "nuevo": false,
     "masVendido": false,
     "stock": 1,
-    "disponible": true
+    "disponible": false
   },
   {
     "id": 103,
@@ -1439,7 +1439,7 @@
     "nuevo": false,
     "masVendido": false,
     "stock": 1,
-    "disponible": true
+    "disponible": false
   },
   {
     "id": 104,
@@ -1523,7 +1523,7 @@
     "nuevo": false,
     "masVendido": false,
     "stock": 1,
-    "disponible": true
+    "disponible": false
   },
   {
     "id": 110,
@@ -1649,7 +1649,7 @@
     "nuevo": false,
     "masVendido": false,
     "stock": 1,
-    "disponible": true 
+    "disponible": false 
   },
   {
     "id": 119,
@@ -1663,6 +1663,20 @@
     "nuevo": false,
     "masVendido": false,
     "stock": 1,
-    "disponible": true 
-  }
+    "disponible": false 
+  },
+  {
+    "id": 120,
+    "nombre": "Gloss con Pompón",
+    "categoria": "Belleza",
+    "descripcion": "Aporta un acabado brillante con una presentación adorable. Su diseño con pompón lo hace perfecto para llevar siempre contigo.",
+    "precio": 12,
+    "imagen": "IMAGENES/PRODUCTOS/belleza/labial_pompom.png",
+    "etiqueta": "",
+    "destacado": false,
+    "nuevo": false,
+    "masVendido": false,
+    "stock": 1,
+    "disponible": false 
+  }  
 ]
